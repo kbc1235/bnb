@@ -1,5 +1,33 @@
-*{padding: 0;margin: 0;list-style: none;text-decoration: none;text-color:#292929}
+*{padding: 0;margin: 0;list-style: none;text-decoration: none;color:#292929}
 .header{
     width:100%;
-    height: 90px; 
+    height: 90px;
+    position: fixed;
+    top:0;
+    z-index: 10;
+    .inner{
+        width:1440px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        padding-top:30px;
+        .menu{
+            margin-left: auto;
+            > ul{
+              display: flex;  
+            }
+        }
+        
+    }
+}
+
+.main{
+    width: 100%;
+    .visual_wrapper{
+        height: 600px;
+        > img{
+            position: absolute;
+            object-fit: cover;
+        }
+    }
 }
