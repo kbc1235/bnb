@@ -4,12 +4,20 @@ import './css/layout.scss';
 
 //layout
 import Header from './layout/header';
+import Content from './layout/content';
+
+//component
+import Covid from './component/covid';
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <Covid/>
+      <div className="wrap">
       <Header></Header>
-    </div>
+      <Content></Content>
+      </div>
+    </>
   );
 }
 
