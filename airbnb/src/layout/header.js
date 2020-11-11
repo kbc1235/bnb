@@ -1,11 +1,11 @@
 import React from 'react';
-
+import Logo from '../logo.svg';
 
 function Header(){
     return (
         <div className="header">
             <div className="inner">
-                <h1 className><img src="" alt="airbnb"></img></h1>
+                <h1 className="logo"><img src={Logo} alt="airbnb"></img></h1>
                 <div>
                     <div className="lodging">
                         <div className="lodging_wrapper">

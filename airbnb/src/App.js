@@ -6,12 +6,18 @@ import './css/layout.scss';
 import Header from './layout/header';
 import Content from './layout/content';
 
+//component
+import Covid from './component/covid';
+
 function App() {
   return (
-    <div className="App">
+    <>
+      <Covid/>
+      <div className="wrap">
       <Header></Header>
       <Content></Content>
-    </div>
+      </div>
+    </>
   );
 }
 
