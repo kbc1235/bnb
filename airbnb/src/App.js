@@ -11,7 +11,6 @@ import Covid from './component/covid';
 
 function App() {
   return (
-<<<<<<< HEAD
     <>
       <Covid/>
       <div className="wrap">
@@ -19,9 +18,6 @@ function App() {
       <Content></Content>
       </div>
     </>
-=======
-      <Header></Header>
->>>>>>> 15a9e069a343afd251ba1d85c8acf50eb3390440
   );
 }
 
