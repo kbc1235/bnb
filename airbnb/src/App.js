@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/layout.scss';
+import './style/layout.scss';
 
 
 //layout
