@@ -4,6 +4,7 @@ import Logo from '../logo.svg';
 function Header(){
     return (
         <div className="header">
+<<<<<<< HEAD
             <div className="inner">
                 <h1 className="logo"><img src={Logo} alt="airbnb"></img></h1>
                 <div>
@@ -42,6 +43,10 @@ function Header(){
                     </ul>
                 </nav>
             </div>
+=======
+            <h1>airbnb</h1>
+            <nav></nav>
+>>>>>>> 15a9e069a343afd251ba1d85c8acf50eb3390440
         </div>
     );
 }
