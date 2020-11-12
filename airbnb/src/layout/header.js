@@ -6,19 +6,17 @@ function Header(){
         <div className="header">
             <div className="inner">
                 <h1 className="logo"><img src={Logo} alt="airbnb"></img></h1>
-                <div>
-                    <div className="lodging">
-                        <div className="lodging_wrapper">
-                            
-                        </div>
-                    </div>
-                    <div className="experience">
-                        <div className="experience_wrapper">
-                            
-                        </div>
-                    </div>
-                    <p><a href="#">온라인 체험</a></p>
-                </div>
+                <ul className="search_wrapper">
+                    <li>
+                        <a href="#">숙소</a>
+                    </li>
+                    <li>
+                        <a href="#">체험</a>
+                    </li>
+                    <li>
+                        <a href="#">온라인체험</a>
+                    </li>
+                </ul>
                 <nav className="menu">
                     <ul>
                         <li className="hostbtn"><a href="#">호스트 모드로 전환</a></li>

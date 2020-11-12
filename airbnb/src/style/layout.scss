@@ -37,6 +37,39 @@
             *{
                 color: #fff;
             }
+            .search_wrapper{
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+                flex:auto;
+                > li{
+                    margin-right: 70px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                    > a{
+                        font-size: 16px;
+                        font-weight: 600;
+                        display: block;
+                        position: relative;
+                        &::after{
+                            display: block;
+                            width: 0;
+                            height:2px;
+                            background: #fff;
+                            position: absolute;
+                            bottom:-5px;
+                            left: 0;
+                            content: "";
+                            transition:all 0.5s;
+                        }
+                        &:hover::after{
+                            width: 100%;
+                        }
+                    }
+                }
+
+            }
             .menu{
                 margin-left: auto;
                 > ul{
